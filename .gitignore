@@ -1,0 +1,11 @@
+# Files
+.env
+errors.log
+composer.lock
+ContactSR.php
+index.html
+
+# Folders
+/vendor
+/contactform
+/click-master
