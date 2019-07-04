@@ -16,7 +16,8 @@
 	<link rel="shortcut icon" href="/assets/images/favicon.ico" type="/assets/images/x-icon">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600" rel="stylesheet" />
-	<link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/bootstrap/css/animate.min.css" rel="stylesheet" />
 	<link href="/assets/css/style.css" rel="stylesheet" />
 	<link href="/assets/css/font-awesome.css" rel="stylesheet" />
 	<link href="/assets/css/responsive.css" rel="stylesheet" />

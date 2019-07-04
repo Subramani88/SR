@@ -16,12 +16,13 @@
     </div>    		
 </footer>
     
-<script type="text/javascript" src="/assets/js/jquery.1.8.3.min.js"></script>
-<script type="text/javascript" src="/assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="/assets/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/popper-1.14.7.min.js"></script>
+<script type="text/javascript" src="/assets/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery-scrolltofixed.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.easing-1.4.1.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.isotope.js"></script>
-<script type="text/javascript" src="/assets/js/wow.js"></script>
+<script type="text/javascript" src="/assets/js/wow.min.js"></script>
 <script type="text/javascript" src="/assets/js/classie.js"></script>
 <script type="text/javascript">
     // Main Navigation
