@@ -20,29 +20,41 @@
 <script type="text/javascript" src="/assets/js/popper-1.14.7.min.js"></script>
 <script type="text/javascript" src="/assets/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery-scrolltofixed.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.easing-1.4.1.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.easing-1.4.1.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.isotope.js"></script>
 <script type="text/javascript" src="/assets/js/wow.min.js"></script>
 <script type="text/javascript" src="/assets/js/classie.js"></script>
+<script type="text/javascript" src="/assets/vegas/vegas.min.js"></script>
 <script type="text/javascript">
+    var windowHeight = $(window).height();
+
     // Main Navigation
-    $(window).load(function() {
-        $('header nav > a').on('click', function(e) {
-            var $anchor = $(this);
+    $(window).on('scroll', function() {
+        if ($(this).scrollTop() > windowHeight) {
+            $('.top-nav').addClass('nav-sticky');
+        } else if($(this).scrollTop() <= 5) {
+            $('.top-nav').removeClass('nav-sticky');
+        }
+    });
+
+    // Navigation Scroll
+    $(window).on('load', function() {
+        $('.top-nav .nav a').on('click', function(e) {
+            var anchor = $(this).attr('href');
 
             $('html, body').stop().animate({
-                scrollTop: $($anchor.attr('href')).offset().top - 97
-            }, 1500, 'easeInOutExpo');
+                scrollTop: $(anchor).offset().top-100
+            }, 800, 'easeInOutExpo');
 
             e.preventDefault();
         })
     });
 
     $(document).ready(function(e) {
-        $('#main-navigation').scrollToFixed();
-        $('header > nav > a').click(function() {
+        //$('#main-navigation').scrollToFixed();
+        /*$('header > nav > a').click(function() {
             $('.main-nav').slideToggle();
-        });
+        });*/
 
         /* $('.res-nav_click').click(function() {
             $('.main-nav').slideToggle();
@@ -50,6 +62,22 @@
         }); */
     });
 
+    // Hero
+    $(".hero").css({minHeight: windowHeight + "px"});
+    $(".hero").vegas({
+        cover: true,
+        slides: [
+            { src: "/assets/images/hero-sr.jpg" },
+        ]
+    });
+
+    // Down arrow
+    $('span[data-scrolldown="true"]').on("click", function(e) {
+        e.stopPropagation();
+        $("html, body").animate({
+            scrollTop: $("#about").offset().top
+        }, 1000, 'swing')
+    });
     
 
     wow = new WOW({
@@ -72,7 +100,7 @@
         });
     }) */
 
-    $(window).load(function() {
+    $(window).on('load', function() {
         var $container = $('.portfolioContainer'),
             $body = $('body'),
             colW = 375,
