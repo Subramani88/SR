@@ -1,3 +1,7 @@
+body {
+	font-size: 0.90rem;
+}
+
 header {
 	background-color: #fff;
 	border-bottom: 1px solid #dddddd;
@@ -8,6 +12,151 @@ header .nav-logo {
 }
 header .nav-link {
 	padding: .5rem 1.5rem;
+}
+
+.top-nav {
+	top: -110px;
+	transition: top 0.3s;
+}
+.nav-sticky {
+	top: 0;
+}
+
+.hero-container {
+	height: 100%;
+	position: relative;
+}
+.hero-container .scroll-down {
+	position: absolute;
+	bottom: 2rem;
+	right: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.main-logo {
+	margin-bottom: 5rem;
+	position: absolute;
+	bottom: 10rem;
+	right: 0;
+	left: 0;
+}
+
+.card-black {
+	background-color: #141414;
+	border-radius: 0;
+	border:0;
+	/* position: relative; */
+}
+
+.card-black h4 {
+	color: #fff;
+}
+.card-black .lead {
+	font-size: 0.80rem;
+	margin-bottom: 1rem;
+}
+.card-black p {
+	line-height: normal;
+}
+.card-black .about-intro {
+	min-height: 130px;
+	max-height: 130px;
+	overflow: hidden;
+}
+#partenaires .card-black .about-intro {
+	min-height: 180px;
+	max-height: 180px;
+}
+.card-profile {
+	position: relative;
+}
+.card-profile:before {
+	/* position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  border-color: transparent transparent transparent #141414; */
+}
+.card-profile .profile-pic {
+	border-radius: 50%;
+	position: absolute;
+	top: -5rem;
+	right: 1rem;
+	z-index: 1;
+	max-width: 90px;
+	opacity: 1;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.service-card h3 {
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+.service-card img {
+	margin-bottom: 1rem;
+	box-shadow: inset 0 4px 7px 1px #fff,inset 0 -5px 20px rgba(173,186,204,.25),0 2px 6px rgba(0,21,64,.14),0 10px 20px rgba(0,21,64,.05);
+}
+
+.gallery-card {
+	position: relative;
+}
+.gallery-card img {
+	opacity: 0.85;
+    -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+	box-shadow: inset 0 4px 7px 1px #000,inset 0 -5px 20px rgba(173,186,204,.25),0 2px 6px rgba(0,21,64,.14),0 10px 20px rgba(0,21,64,.05);
+}
+.gallery-card:hover img {
+	opacity: 1;
+}
+.gallery-card h3 {
+	font-weight: 600;
+	position: absolute;
+	bottom: 10px;
+	left: 15px;
+	font-size: 1.2rem;
+	margin: 0;
+	background-color: rgba(0,0,0,0.5);
+    padding: .5rem 1rem;
+    -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+.gallery-card:hover h3 {
+	color: #fff;
+}
+
+.video {
+	height: 200px;
+}
+
+.tarif-heading h3 {
+	font-weight: 600;
+	font-size: 1.6rem;
+}
+.tarif-content-list li {
+	padding: 1rem;
+}
+
+.tarif-events .tarif-heading h3 {
+	font-size: 1.2rem;
+}
+
+.color-or {
+	color:#fcb200;
+}
+
+.bg-dark {
+	background-color: #141414!important;
 }
 /* Float Elements 
 ---------------------------------*/
@@ -58,7 +207,6 @@ a, a:hover, a:active{ outline:0px !important}
 body {
 	background:#fff;
 	font-family: 'Open Sans', sans-serif;
-	font-size:14px;
 	font-weight:normal;
 	color:#888888;
 	margin:0;
@@ -469,9 +617,6 @@ border: 2px solid #fff;
 }
 #sportPolice{
    color:forestgreen; 
-}
-#sportImg{
-   /*border:3px forestgreen solid; */
 }
 .rowMargin{
     margin-bottom:24px;

@@ -17,13 +17,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600" rel="stylesheet" />
     <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/assets/bootstrap/css/animate.min.css" rel="stylesheet" />
+    <link href="/assets/vegas/vegas.min.css" rel="stylesheet" />
+    <link href="/assets/css/animate.min.css" rel="stylesheet" />
 	<link href="/assets/css/style.css" rel="stylesheet" />
-	<link href="/assets/css/font-awesome.css" rel="stylesheet" />
+	<link href="/assets/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 	<link href="/assets/css/responsive.css" rel="stylesheet" />
 </head>
 <body id="home">
-    <header id="main-navigation">
+    <header id="main-navigation" class="top-nav fixed-top">
         <div class="container">
             <nav class="nav justify-content-center text-uppercase">
                 <a href="#about" class="nav-link my-auto">A propos</a>
@@ -36,10 +38,18 @@
             </nav>
         </div>
     </header>
-    <section class="jumbotron">
-        <div class="container text-center">
-            <img src="/assets/images/SRIntro.png" alt="PhotographeAnnecy">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <section class="hero">
+        <div class="container hero-container text-center">
+            <div class="main-logo mx-auto my-auto">
+                <img src="/assets/images/saransreflections_intro_logo.png" alt="" class="img-fluid mb-3"><br>
+                <img src="/assets/images/saransreflections_intro_text.png" alt="" class="img-fluid">
+            </div>
+            <div class="scroll-down mx-auto my-auto">
+                <span data-scrolldown="true" class="color-or">
+                    <i class="icon ion-ios-arrow"></i>
+                    <i class="fas fa-chevron-down fa-5x color-or"></i>
+                </span>
+            </div>
         </div>
     </section>
 <!-- <nav class="main-nav-outer" id="test">
