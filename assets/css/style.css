@@ -151,12 +151,20 @@ header .nav-link {
 	font-size: 1.2rem;
 }
 
+.bg-contact {
+	background: url('/assets/images/hero-sr.jpg') #000;
+	opacity: 0.8
+}
+
 .color-or {
 	color:#fcb200;
 }
 
+.bg-warning {
+	background-color:#fcb200!important;
+}
 .bg-dark {
-	background-color: #141414!important;
+	background-color:#141414!important;
 }
 /* Float Elements 
 ---------------------------------*/
