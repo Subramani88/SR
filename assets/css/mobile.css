@@ -1,0 +1,82 @@
+.top-nav {
+	top:-100px;
+}
+.nav-sticky {
+	top: 0;
+}
+.navbar-toggler span.icon {
+	font-size: 2rem;
+}
+
+.card-black {
+	margin-bottom: 1rem;
+}
+.card-image {
+	height: 160px;
+	overflow: hidden;
+}
+
+#our-concept img,
+.service-card,
+.gallery-card,
+.video {
+	margin-bottom: 2rem;
+}
+
+.video,
+.video iframe {
+	height: 120px;
+}
+
+.tarif-heading {
+	padding: 7px!important;
+	font-size: 0.70rem;
+}
+.tarif-heading h6 {
+	font-size: 0.70rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.tarif-heading h3 {
+	font-size: 0.80rem;
+}
+.tarif-content-list li {
+    padding: 7px;
+    font-size: 0.70rem;
+    min-height: 65px;
+}
+
+.tarif-events .col-4:first-child {
+	padding-right: 0;
+}
+.tarif-events .col-4:last-child {
+	padding-left: 0;
+}
+.tarif-events .col-4:nth-child(2) {
+	padding: 0;
+}
+.tarif-events .tarif-heading h3 {
+    font-size: 0.80rem;
+}
+
+@media (min-width: 576px) {
+	.main-logo {
+		width: 180px;
+		bottom: 6rem;
+	}
+	.hero-container .scroll-down {
+		bottom: 1rem;
+	}
+	.scroll-down .fa-5x {
+		line-height: 0;
+	}
+	.video,
+	.video iframe {
+		height: 160px;
+	}
+
+	.tarif-events .tarif-heading h3 {
+		height: 30px;
+	}
+}
