@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+	header .nav-link {
+	    padding: .5rem 0.9rem;
+	}
+
+	#our-concept img,
+	.service-card,
+	.gallery-card,
+	.card-black,
+	.video {
+		margin-bottom: 2rem;
+	}
+
+	.tarif-content-list li {
+	    padding: 10px;
+	    font-size: 0.90rem;
+	    min-height: 65px;
+	}
+	.tarif-events .tarif-heading h3 {
+		height: 50px;
+	}
+}

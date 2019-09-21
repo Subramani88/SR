@@ -13,8 +13,11 @@ $route = new \Klein\Klein();
 $route->respond('/', function ($request, $response, $service) {
 	$service->pageName = 'home';
 	$service->pageClass = 'home';
-  	$service->render('views/index.php');
+  	$service->render('views/home.php');
 });
 
+$route->respond('/action/sendmail', function ($request, $response, $service) {
+	return 'success';
+});
 
 $route->dispatch();

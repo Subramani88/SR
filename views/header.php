@@ -1,3 +1,5 @@
+<?php include(dirname(__DIR__).'/app.php');
+$deviceIs = theDeviceIs(); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -12,21 +14,24 @@
 	<meta property="og:url" content="https://www.saransrefelctions.com/"/>
 	<meta property="og:image" content="image-url"/>
 	<meta property="og:site_name" content="Sarans Reflections - Photographe Annecy 74" />
-    <title>Sarans Reflections - Photographe Mariage - Naissance - Grossesse - Famille - Portrait - Mode - Enfant </title>
-	<link rel="shortcut icon" href="/assets/images/favicon.ico" type="/assets/images/x-icon">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600" rel="stylesheet" />
+    <title>Sarans Reflections - Photographe Mariage - Naissance - Grossesse - Famille - Portrait - Mode - Enfant</title>
+	<link href="/assets/images/favicon.ico" rel="shortcut icon" type="images/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:300,400,600&display=swap" rel="stylesheet">
+    <link href="/assets/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/assets/vegas/vegas.min.css" rel="stylesheet" />
-    <link href="/assets/css/animate.min.css" rel="stylesheet" />
 	<link href="/assets/css/style.css" rel="stylesheet" />
-	<link href="/assets/fontawesome/css/all.min.css" rel="stylesheet">
-    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-	<link href="/assets/css/responsive.css" rel="stylesheet" />
+    <?php if($deviceIs == "mobile") { ?>     
+    <link href="/assets/css/mobile.css" rel="stylesheet">
+    <?php } else if($deviceIs == "tablet") { ?>     
+    <link href="/assets/css/tablet.css" rel="stylesheet">
+    <?php } ?>
 </head>
 <body id="home">
     <header id="main-navigation" class="top-nav fixed-top">
         <div class="container">
+            <?php if($deviceIs != "mobile") { // Desktop ?>
             <nav class="nav justify-content-center text-uppercase">
                 <a href="#about" class="nav-link my-auto">A propos</a>
                 <a href="#services" class="nav-link my-auto">Services</a>
@@ -36,6 +41,16 @@
                 <a href="#partners" class="nav-link my-auto">Partenaires</a>
                 <a href="#contact" class="nav-link my-auto">Contact</a>
             </nav>
+        <?php } else if($deviceIs == "mobile") { ?>
+            <nav class="navbar pl-0 pt-0 pb-0 d-flex justify-content-between">
+                <a href="#home" class="navbar-brand d-flex align-items-center">
+                    <img src="/assets/images/SRlsmall.png" alt="WEBSITE TITLE" />
+                </a>
+                <button class="navbar-toggler border-warning" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon ion-ios-menu text-warning"></span>
+                </button>
+            </nav>
+        <?php } ?>
         </div>
     </header>
     <section class="hero">
@@ -46,35 +61,8 @@
             </div>
             <div class="scroll-down mx-auto my-auto">
                 <span data-scrolldown="true" class="color-or">
-                    <i class="icon ion-ios-arrow"></i>
-                    <i class="fas fa-chevron-down fa-5x color-or"></i>
+                    <i class="icon ion-ios-arrow-down fa-5x color-or"></i>
                 </span>
             </div>
         </div>
     </section>
-<!-- <nav class="main-nav-outer" id="test">
-    <div class="container">
-        <ul class="main-nav">
-            <li><a href="#about">A propos</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li class="small-logo"><a href="#header"><img src="/assets/images/SRlsmall.png" alt="PhotographeGenève"></a></li>
-            <li><a href="#Tarif">Tarif</a></li>
-            <li><a href="#partenaires">Partenaires</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
-    </div>
-</nav> -->
-    
-<!-- <header class="header" id="header">
-        <figure class="col-sm-12 col-xs-12 wow fadeInUp delay-08s" class="logo animated fadeInDown delay-07s">
-            <a href="#"><img src="/assets/images/SRIntro.png" alt="PhotographeAnnecy"></a>
-        </figure>
-        <div class="row rowMargin">
-            <div class="col-sm-12 col-xs-12  wow fadeInUp delay-08s">
-                <img class="animated fadeInDown delay-08s" src="/assets/images/SRwords.png" id="sportImg">
-            </div>
-        </div>     
-    <a href="#aPropos" class="link animated fadeInUp delay-1s servicelink"><i class="fa fa-angle-double-down fa-3x"></i></a>
-</header> -->
