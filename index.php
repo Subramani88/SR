@@ -1,8 +1,6 @@
 <?php
 define('APP_PATH', '/');
 require_once __DIR__ . '/vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::create(__DIR__);
-$dotenv->load();
 
 // Initiate
 $request = \Klein\Request::createFromGlobals();
@@ -16,7 +14,7 @@ $route->respond('/', function ($request, $response, $service) {
   	$service->render('views/home.php');
 });
 
-$route->respond('/action/sendmail', function ($request, $response, $service) {
+$route->respond('/action/contactform-submit', function ($request, $response, $service) {
 	return 'success';
 });
 

@@ -21,6 +21,7 @@ $deviceIs = theDeviceIs(); ?>
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/assets/vegas/vegas.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
 	<link href="/assets/css/style.css" rel="stylesheet" />
     <?php if($deviceIs == "mobile") { ?>     
     <link href="/assets/css/mobile.css" rel="stylesheet">

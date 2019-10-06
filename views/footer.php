@@ -29,7 +29,10 @@
 <script type="text/javascript" src="/assets/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.easing-1.4.1.min.js"></script>
 <script type="text/javascript" src="/assets/vegas/vegas.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script type="text/javascript">
+    AOS.init();
+    
     var windowHeight = $(window).height();
 
     // Main Navigation
@@ -74,11 +77,50 @@
             scrollTop: $("#about").offset().top
         }, 1000, 'swing')
     });
-    
-    // Contact form 
-    $('.btn-contact').on('click', function () {
-        console.log('test');
+
+    //Wow animate
+    wow = new WOW({
+        animateClass: 'animated',
+        offset: 100
     });
+    wow.init();
+
+$(document).ready(function(){
+    // Contact form 
+    function contactform() {
+        var name    = $("#name").val();
+        var email   = $("#email").val();
+        var phone   = $("#phone").val();
+        var message = $("#message").val();
+
+        $.ajax({
+            type: "POST",
+            url: "/action/contactform-submit",
+            data: "name=" + name + "&email=" + email + "&phone=" + phone + "&message=" + message,
+                
+            success : function(text){
+                if (text == "success"){
+                    contactformSuccess();
+                } else {
+                    contactformSubmit(false);
+                }
+            }
+        });
+    }
+
+    function contactformSuccess(){
+        $("#contactform")[0].reset();
+        contactformSubmit(true);
+    }
+
+    function contactformSubmit(valid) {
+        if(valid){
+            $('.alert-success').toggleClass('d-none');
+        } else {
+            $('.alert-danger').toggleClass('d-none');
+        }
+    }
+});
 </script>
 </body>
 </html>
