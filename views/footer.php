@@ -4,14 +4,14 @@
             <div class="row">
                 <div class="col-12 col-sm-6 col-lg-3">
                     <h3 class="text-white font-weight-bold">Instagram</h3>
-                    <!-- <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="http://lightwidget.com/widgets/aa9285da535055ebbf9fa0041a1b70e1.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe> -->
+                    <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="http://lightwidget.com/widgets/aa9285da535055ebbf9fa0041a1b70e1.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
                 </div>
                 <div class="col-12 col-lg-6 d-sm-none">
                     &nbsp;
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3">
                     <h3 class="text-white font-weight-bold">Facebook</h3>
-                    <!-- <div class="fb-page" data-href="https://www.facebook.com/saransReflections/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/saransReflections/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/saransReflections/">Sarans Reflections</a></blockquote></div> -->
+                    <div class="fb-page" data-href="https://www.facebook.com/saransReflections/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/saransReflections/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/saransReflections/">Sarans Reflections</a></blockquote></div>
                 </div>
             </div>
         </div>
@@ -29,7 +29,13 @@
 <script type="text/javascript" src="/assets/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.easing-1.4.1.min.js"></script>
 <script type="text/javascript" src="/assets/vegas/vegas.min.js"></script>
+<script type="text/javascript" src="/assets/aos/aos.js"></script>
 <script type="text/javascript">
+<script type="text/javascript">
+    //Animate on scroll
+    AOS.init();
+
+    //Get Window Height
     var windowHeight = $(window).height();
 
     // Main Navigation
