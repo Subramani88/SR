@@ -4,7 +4,7 @@
 		<div class="container">
 			<h2 class="mb-4">A propos</h2>
 			<div class="row">
-				<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+				<div class="col-12 col-sm-6 col-md-6 col-lg-3" data-aos="fade-right">
 					<div class="card card-black">
 						<div class="card-image">
 							<img src="/assets/images/aboutus/FBVal.jpg" alt="PhotographeGenève" class="img-fluid" />
@@ -18,7 +18,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+				<div class="col-12 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up">
 					<div class="card card-black">
 						<div class="card-image">
 							<img src="/assets/images/aboutus/FBThulasi.jpg" alt="PhotographeGenève" class="img-fluid" />
@@ -32,7 +32,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+				<div class="col-12 col-sm-6 col-md-6 col-lg-3" data-aos="fade-down">
 					<div class="card card-black mb-0">
 						<div class="card-image">
 							<img src="/assets/images/aboutus/FBand.jpg" alt="PhotographeGenève" class="img-fluid" />
@@ -46,7 +46,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+				<div class="col-12 col-sm-6 col-md-6 col-lg-3" data-aos="fade-left">
 					<div class="card card-black mb-0">
 						<div class="card-image">
 							<img src="/assets/images/aboutus/FBAlex.jpg" alt="PhotographeGenève" class="img-fluid" />
@@ -70,10 +70,10 @@
 		<div class="container">
 			<h2 class="mb-5">Notre Concept</h2>
 			<div class="row">
-				<div class="col-12 col-md-4 col-lg-4">
+				<div class="col-12 col-md-4 col-lg-4" data-aos="fade-right">
 					<img src="/assets/images/Abouttt.jpg" class="shadow img-fluid" alt="PhotographeAnnecy">
 				</div>
-				<div class="col-12 col-md-8 col-lg-8">
+				<div class="col-12 col-md-8 col-lg-8" data-aos="fade-left">
 					<p>Professionnels et particuliers m'apprécient pour la précision de mon travail, la qualité de mes idées et mon sens de l'écoute. Très polyvalent, on me recommande surtout pour mon côté créatif et entreprenant.</p>
 					<div class="mt-3">
 						<h5 class="text-dark text-uppercase"><i class="fas fa-magic fa-fw"></i> Magic de photography</h5>
@@ -97,21 +97,21 @@
 		<div class="container">
 			<h2 class="mb-5">Services</h2>
 			<div class="row">
-				<div class="col-12 col-sm-4 col-lg-4">
+				<div class="col-12 col-sm-4 col-lg-4" data-aos="fade-right">
 					<div class="service-card text-center">
 						<h3>Photographies</h3>
 						<img src="/assets/images/Photography.png" alt="Photographe Grenoble" class="img-fluid">
 						<p>Mariage, grossesse,et bébé.<br>Photo de Couple/mode/famille.</p>
 					</div>
 				</div>
-				<div class="col-12 col-sm-4 col-lg-4">
+				<div class="col-12 col-sm-4 col-lg-4" data-aos="fade-down">
 					<div class="service-card text-center">
 						<h3>Vidéo / Drone</h3>
 						<img src="/assets/images/Video.png" alt="Photographe Grenoble" class="img-fluid">
 						<p>Journée complete.<br>Recapulatif de bon moment.</p>
 					</div>
 				</div>
-				<div class="col-12 col-sm-4 col-lg-4">
+				<div class="col-12 col-sm-4 col-lg-4" data-aos="fade-left">
 					<div class="service-card text-center">
 						<h3>Location</h3>
 						<img src="/assets/images/Car.png" alt="Photographe Grenoble" class="img-fluid">
@@ -127,7 +127,7 @@
     	<div class="container">
 	    	<h2 class="mb-5 text-white">Gallery</h2>
 	    	<div class="row mb-4">
-	    		<div class="col-6 col-sm-6 col-lg-4">
+	    		<div class="col-6 col-sm-6 col-lg-4" data-aos="fade-down-right">
 	    			<div class="gallery-card">
 		    			<a href="/click-master/ImageMariage.html">
 		    				<img src="/assets/images/gallery-mariage.png" alt="Mariage Photographe" class="img-fluid">
@@ -135,7 +135,7 @@
 		    			<h3 class="color-or">Mariage</h3>
 		    		</div>
 	    		</div>
-	    		<div class="col-6 col-sm-6 col-lg-4">
+	    		<div class="col-6 col-sm-6 col-lg-4" data-aos="fade-down">
 	    			<div class="gallery-card">
 		    			<a href="/click-master/ImageGrossesse.html">
 		    				<img src="/assets/images/gallery-grossesse.png" alt="Grossesse Photographe" class="img-fluid">
@@ -143,7 +143,7 @@
 		    			<h3 class="color-or">Grossesse</h3>
 		    		</div>
 	    		</div>
-	    		<div class="col-12 col-sm-6 col-lg-4">
+	    		<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-down-left">
 	    			<div class="gallery-card">
 		    			<a href="/click-master/ImageBebe.html">
 		    				<img src="/assets/images/gallery-bebe.png" alt="Bebe Photographe" class="img-fluid">
@@ -152,7 +152,7 @@
 		    		</div>
 	    		</div>
 	    		<div class="w-100 pt-1 pb-1 d-none d-lg-block">&nbsp;</div>
-	    		<div class="col-6 col-sm-6 col-lg-4">
+	    		<div class="col-6 col-sm-6 col-lg-4" data-aos="fade-up-right">
 	    			<div class="gallery-card">
 		    			<a href="/click-master/ImageArt.html">
 		    				<img src="/assets/images/gallery-art.png" alt="Art Photographe" class="img-fluid">
@@ -160,7 +160,7 @@
 		    			<h3 class="color-or">Art</h3>
 		    		</div>
 	    		</div>
-	    		<div class="col-6 col-sm-6 col-lg-4">
+	    		<div class="col-6 col-sm-6 col-lg-4" data-aos="fade-up">
 	    			<div class="gallery-card mb-0">
 		    			<a href="/click-master/ImageVoyage.html">
 		    				<img src="/assets/images/gallery-voyage.png" alt="Voyage Photographe" class="img-fluid">
@@ -168,7 +168,7 @@
 		    			<h3 class="color-or">Voyage</h3>
 		    		</div>
 	    		</div>
-	    		<div class="col-12 col-sm-6 col-lg-4">
+	    		<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up-left">
 	    			<div class="gallery-card mb-0">
 		    			<a href="/click-master/ImagePortrait.html">
 		    				<img src="/assets/images/gallery-portrait.png" alt="Portrait Photographe" class="img-fluid">
@@ -184,22 +184,22 @@
     <section id="videos" class="pt-5 pb-5">
     	<div class="container">
 			<div class="row">
-				<div class="col-6 col-lg-3">
+				<div class="col-6 col-lg-3" data-aos="fade-up">
 					<div class="video shadow-sm">
 						<iframe id="ytplayer" type="text/html" width="100%" height="200" src="https://www.youtube.com/embed/2GPfrPsmGBU?rel=0&fs=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
-				<div class="col-6 col-lg-3">
+				<div class="col-6 col-lg-3" data-aos="fade-down">
 					<div class="video shadow-sm">
 						<iframe id="ytplayer" type="text/html" width="100%" height="200" src="https://www.youtube.com/embed/KS9OyZHVFAU?rel=0&fs=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
-				<div class="col-6 col-lg-3">
+				<div class="col-6 col-lg-3" data-aos="fade-up">
 					<div class="video shadow-sm mb-0">
 						<iframe id="ytplayer" type="text/html" width="100%" height="200" src="https://www.youtube.com/embed/YbD9DUMITLo?rel=0&fs=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
-				<div class="col-6 col-lg-3">
+				<div class="col-6 col-lg-3" data-aos="fade-down">
 					<div class="video shadow-sm mb-0">
 						<iframe id="ytplayer" type="text/html" width="100%" height="200" src="https://www.youtube.com/embed/v43FYa5sKg0?rel=0&fs=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
 					</div>
@@ -424,7 +424,7 @@
     	<div class="container">
     		<h2 class="mb-4">Partenaires</h2>
 			<div class="row">
-				<div class="col-12 col-sm-6 col-lg-3">
+				<div class="col-12 col-sm-6 col-lg-3" data-aos="fade-right">
 					<div class="card card-black mb-4">
 						<img src="/assets/images/partners/fb_dressingdunsoir.jpg" alt="PhotographeGenève" class="img-fluid" />
 						<div class="card-body card-profile">
@@ -439,7 +439,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-lg-3">
+				<div class="col-12 col-sm-6 col-lg-3" data-aos="fade-down">
 					<div class="card card-black">
 						<img src="/assets/images/partners/fb_magicnikola.jpg" alt="PhotographeGenève" class="img-fluid" />
 						<div class="card-body card-profile">
@@ -454,7 +454,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-lg-3">
+				<div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up">
 					<div class="card card-black">
 						<img src="/assets/images/partners/fb_nadbeauty-makeup.jpg" alt="PhotographeGenève" class="img-fluid" />
 						<div class="card-body card-profile">
@@ -469,7 +469,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-lg-3">
+				<div class="col-12 col-sm-6 col-lg-3" data-aos="fade-left">
 					<div class="card card-black">
 						<img src="/assets/images/partners/fb_omg-beautybykris.jpg" alt="PhotographeGenève" class="img-fluid" />
 						<div class="card-body card-profile">
@@ -484,7 +484,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-lg-3">
+				<div class="col-12 col-sm-6 col-lg-3" data-aos="fade-right">
 					<div class="card card-black">
 						<img src="/assets/images/partners/fb_janouevenements.jpg" alt="PhotographeGenève" class="img-fluid" />
 						<div class="card-body card-profile">
@@ -499,7 +499,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-lg-3">
+				<div class="col-12 col-sm-6 col-lg-3" data-aos="fade-down">
 					<div class="card card-black">
 						<img src="/assets/images/partners/fb_coricoifff.jpg" alt="PhotographeGenève" class="img-fluid" />
 						<div class="card-body card-profile">
@@ -514,7 +514,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-lg-3">
+				<div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up">
 					<div class="card card-black">
 						<img src="/assets/images/partners/fb_floriane-make-up-artist.jpg" alt="PhotographeGenève" class="img-fluid" />
 						<div class="card-body card-profile">
@@ -529,7 +529,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-lg-3">
+				<div class="col-12 col-sm-6 col-lg-3" data-aos="fade-left">
 					<div class="card card-black">
 						<img src="/assets/images/partners/fb_adel-waynak-dj.jpg" alt="PhotographeGenève" class="img-fluid" />
 						<div class="card-body card-profile">
@@ -574,7 +574,7 @@
     			<div class="col-12 col-lg-8">
     				<!-- <div id="sendmessage">Ton message a bien été envoyé, merci !</div>
 					<div id="errormessage"></div> -->
-					<form id="contactform" action="">
+					<form id="contactform">
 						<div class="form-group">
 							<input type="text" name="name" class="form-control rounded-0" id="name" placeholder="Nom" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
 							<div class="validation"></div>
@@ -591,7 +591,7 @@
 							<textarea class="form-control rounded-0" id="message" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
 							<div class="validation"></div>
 						</div>
-						<button class="btn btn-bg btn-light btn-contact rounded-0">Envoyer</button>
+						<button type="submit" name="submit" class="btn btn-bg btn-light btn-contact rounded-0">Envoyer</button>
 					</form>
     			</div>
     		</div>
