@@ -11,15 +11,15 @@
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3">
                     <h3 class="text-white font-weight-bold">Facebook</h3>
-                    <div class="fb-page" data-href="https://www.facebook.com/saransReflections/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/saransReflections/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/saransReflections/">Sarans Reflections</a></blockquote></div>
+                    <div class="fb-page" data-href="https://www.facebook.com/saransReflections/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/saransReflections/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/saransReflections/">Sarans Reflections</a></blockquote></div>   
                 </div>
             </div>
         </div>
     </div>
     <div class="copyright pt-5 pb-5">
         <div class="container text-center">
-            <p class="text-white mb-2">&copy; 2018 Sarans Reflections &middot; All Rights Reserved</p>
-            <small class="text-muted">Photographe Annecy Marriage, Portrait, Mode, Enfant, Bébé, Naissance-Haute Savoie-Annecy-74,Lyon, Grenoble, Genève</small>
+            <p class="text-white mb-2">&copy; 2020 Sarans Reflections &middot; All Rights Reserved</p>
+            <small class="text-muted">Photographe Genève Marriage, Portrait, Mode, Enfant, Bébé,Grossesse</small>
         </div>
     </div>
 </footer>
@@ -30,7 +30,7 @@
 <script type="text/javascript" src="/assets/js/jquery.easing-1.4.1.min.js"></script>
 <script type="text/javascript" src="/assets/vegas/vegas.min.js"></script>
 <script type="text/javascript" src="/assets/aos/aos.js"></script>
-<script type="text/javascript">
+<script type="text/javascript" src="../contactform/contactform.js"></script>
 <script type="text/javascript">
     //Animate on scroll
     AOS.init();
@@ -86,5 +86,3 @@
         console.log('test');
     });
 </script>
-</body>
-</html>
