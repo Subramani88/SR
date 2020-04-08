@@ -172,10 +172,10 @@ a, a:hover {
 a:hover {
 	color: #fcb200;
 }
-h1, h2, h3, h4 {
+/*h1, h2, h3, h4 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-}
+}*/
 p {
 	color: #666;
 }
@@ -195,4 +195,8 @@ a.color-or {
 }
 .bg-dark {
 	background-color:#141414!important;
+}
+
+.grid-striped .col:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.5);
 }
