@@ -1,20 +1,21 @@
 <footer class="bg-dark">
     <div class="portfolio pt-5 pb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-6 col-lg-3">
+            <div class="row container">
+                <div class="col-12 col-sm-4 col-lg-4" data-aos="fade-right">
                     <h3 class="text-white font-weight-bold">Instagram</h3>
                     <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="http://lightwidget.com/widgets/aa9285da535055ebbf9fa0041a1b70e1.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
                 </div>
-                <div class="col-12 col-lg-6 d-sm-none">
-                    &nbsp;
-                </div>
-                <div class="col-12 col-sm-6 col-lg-3">
+                <div class="col-12 col-sm-4 col-lg-4" data-aos="fade-left">
                     <h3 class="text-white font-weight-bold">Facebook</h3>
-                    <div class="fb-page" data-href="https://www.facebook.com/saransReflections/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/saransReflections/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/saransReflections/">Sarans Reflections</a></blockquote></div>   
+                    <div data-href="https://www.facebook.com/saransReflections/" data-hide-cover="false" data-width="420" data-show-facepile="true" class=" fb-page" ></div>
                 </div>
+                <div class="col-12 col-sm-4 col-lg-4" data-aos="fade-down">
+                    <h3 class="text-white font-weight-bold">Livre Photo Luxe</h3>
+					<div class="video shadow-sm">
+						<iframe id="ytplayer" type="text/html" width="100%" height="300" src="https://www.youtube.com/embed/7gaiZtSKZZg?rel=0&fs=0&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
             </div>
-        </div>
     </div>
     <div class="copyright pt-5 pb-5">
         <div class="container text-center">

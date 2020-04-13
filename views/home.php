@@ -42,7 +42,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-sm-6 col-md-6 col-lg-3" data-aos="fade-down">
-					<div class="card card-black mb-0">
+					<div class="card card-black">
 						<div class="card-image">
 							<img src="/assets/images/aboutus/FBand.jpg" alt="PhotographeGenève" class="img-fluid" />
 						</div>
@@ -60,7 +60,7 @@
 					</div>
 				</div>
 				<div class="col-12 col-sm-6 col-md-6 col-lg-3" data-aos="fade-left">
-					<div class="card card-black mb-0">
+					<div class="card card-black">
 						<div class="card-image">
 							<img src="/assets/images/aboutus/FBAlex.jpg" alt="PhotographeGenève" class="img-fluid" />
 						</div>
@@ -194,7 +194,7 @@
 	    		<div class="w-100 pt-1 pb-1 d-none d-lg-block">&nbsp;</div>
 	    		
 	    		<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up">
-	    			<div class="gallery-card mb-0">
+	    			<div class="gallery-card">
 		    			<a href="/click-master/ImageCouple.html">
 		    				<img src="/assets/images/gallery-couple.jpg" alt="PhotographeGenève" class="img-fluid">
 		    			</a>
@@ -202,7 +202,7 @@
 		    		</div>
 	    		</div>
 	    		<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up-left">
-	    			<div class="gallery-card mb-0">
+	    			<div class="gallery-card">
 		    			<a href="/click-master/ImagePortrait.html">
 		    				<img src="/assets/images/gallery-portrait.jpg" alt="Portrait Photographe" class="img-fluid">
 		    			</a>
@@ -600,21 +600,11 @@
 	    				<h3 class="font-weight-bold mb-0"><i class="far fa-clock"></i> Hours:</h3>
 	    				<p class="text-white">Lundi - Samedi : 9h à 21h</p>
 	    			</div>
-                    <div class="mb-3">
-                        <!--Facebook-->
-                        <a href="https://www.facebook.com/pages/Sarans-Reflections/315033681985981" class="btn-floating btn-lg btn-fb" ><i class="fab fa-facebook"></i></a>
-                        <!--Instagram-->
-                        <a href="https://www.instagram.com/saransreflections/" class="btn-floating btn-lg btn-ins" type="button" role="button"><i class="fab fa-instagram"></i></a>
-                        <!--Twitter-->
-                        <a  href="#" class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>
-                        <!--Youtube-->
-                        <a  href="https://www.youtube.com/channel/UCmuGaxP2x_LSdfZXgkgiMVg/videos" class="btn-floating btn-lg btn-yt" type="button" role="button"><i class="fab fa-youtube"></i></a>
-                    </div>
 				</div>
 				<div class="col-12 col-lg-5" data-aos="fade-up">
                     <div class="form">
                     
-                    <form name="contactform" action="ContactSR.php" method="post" role="form" class="contactForm">
+                    <form name="contactform" action="contactform/ContactSR.php" method="post" role="form" class="contactForm">
                         <div class="form-row">
                         <div class="form-group col-lg-6">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Nom" data-rule="minlen:4" data-msg="Veuillez saisir au moins 4 caractères." />
@@ -635,7 +625,6 @@
                         </div>
                         <div class="text-center"><button type="submit"class="btn btn-warning btn-bg text-white font-weight-bold rounded-0 btn-block" title="Send Message">ENVOYER</button></div>
                     </form>
-                    <div id="sendmessage">Votre message est bien envoyer. Merci beaucoup!</div>
                     <div id="errormessage"></div>
                 </div>
 				</div>
@@ -645,7 +634,16 @@
              </div>
         </div>
         
-    
+    <!-- Start Links Section -->
+<footer class="blue btn-warning">
+	<ul class="social">
+		<li><a href="https://www.facebook.com/pages/Sarans-Reflections/315033681985981"><i class="fab fa-facebook"  id="fb"></i></a></li>
+        <li><a href="https://www.instagram.com/saransreflections/"><i class="fab fa-instagram"  id="instagram"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCmuGaxP2x_LSdfZXgkgiMVg/videos"><i class="fab fa-youtube" id="youtube"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"  id="twitter"></i></a></li>
+		<li><a href="#"><i class="fab fa-google"  id="google"></i></a></li>
+	</ul>
+</footer>
     </section>
     <!-- \Contact -->
 
